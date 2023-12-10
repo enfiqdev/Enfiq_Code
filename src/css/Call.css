@@ -1,0 +1,72 @@
+.callpanel{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Inter' sans-serif;
+    width: 100vw;
+    background-color: #E6E6E6;
+    height: 42vh;
+    align-items: center;
+}
+
+.callhead{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    font-size: 1.3rem;
+}
+
+.callhead p{
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.call_line{
+    margin-top: 2vh;
+    border: 1px solid var(--www-withsupafast-com-2114444580078125-x-9544444580078125-default-cod-gray, #131313);;
+    width: 45vw;
+}
+
+.call_inputs form{
+    margin-top: 4vh;
+    display: flex;
+    flex-direction: row;
+    width: 45vw;
+    height: max-content;
+    align-items: center;
+}
+
+.call_inputs input{
+    background-color: #FFF;
+    border-radius: 10px;
+    border: none;
+    padding-left: 2vw;
+    width: 33vw;
+    padding-right: 10vw;
+    height: 6vh;
+    z-index: 0;
+}
+
+.call_inputs input::placeholder{
+    position: relative;
+    right: 1vw;
+}
+
+.call_inputs input:focus{
+    border: 1px solid #E6E6E6;
+}
+
+.call_inputs button{
+    cursor: pointer;
+    border: none;
+    color: #E6E6E6;
+    padding: 0vh 1vw;
+    font-weight: 700;
+    background: rgba(212, 23, 23, 0.75);
+    border-radius: 10px;
+    height: 5vh;
+    position: absolute;
+    z-index: 1;
+    right: 28vw;
+}

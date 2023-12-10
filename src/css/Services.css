@@ -1,0 +1,139 @@
+.services_component{
+    width: 100vw;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Inter' sans-serif;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40vh;
+}
+
+.service_panel{
+    width: 75vw;
+    height: max-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.service_subpanel1{
+    width: 45vw;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4vh;
+    text-align: start;
+    height: 20vh;
+    padding-bottom: 3vh;
+}
+
+.service_subpanel1 h1{
+    font-size: 2.1rem;
+    display: contents;
+    font-weight: 700;
+}
+
+.service_subpanel1 p{
+    color: var(--wiza-co-black, #000);
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.service_subpanel2{
+    width: max-content;
+    margin-bottom: auto;
+    margin-top: 4vh;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.service_subpanel2 button{
+    width: 8vw;
+    height: 7vh;
+    border: none;
+    font-weight: 600;
+    border-radius: 10px;
+    color: var(--White, #FFF);
+    background: var(--token-7daaf28e-d9d8-4811-b3fb-fc865480c423, rgb(9, 9, 9));
+    font-size: 1rem;
+}
+
+.divbtn{
+    display: flex;
+    width: 75vw;
+    height: max-content;
+    justify-content: space-between;
+    padding-bottom: 8vh;
+}
+
+.divbtn .dbtn{
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 13vw;
+    height: 20vh;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    font-size: 1rem;
+    font-weight: 600;
+    color: #000;
+}
+
+.dbtn:first-child{
+    background-color: rgba(212, 23, 23, 0.75);
+}
+
+.dbtn .blackcircle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #222;
+    width: 3.7vw;
+    height: 7.2vh;
+}
+
+.dbtn:hover{
+    box-shadow: 5px 5px 10px 0px  grey ;
+    transform: scale(1.02);
+}
+
+.service_display{
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    background-color: var(--token-436523d3-8c5f-4840-b1ed-d65b0c4b1897, rgb(255, 236, 236));
+}
+
+.service_display img{
+    border-radius: inherit;
+    box-shadow: 5px 5px 10px 1px grey;
+    position: relative;
+    top: 7vh;
+    right: 7vh;
+    width: 75vw;
+    height: 75vh;
+}
+
+@media screen and (max-width:768px) {
+
+}
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+    .service_subpanel2 button{
+        width: 13vw;
+        min-height: 4vh;
+        max-height: 5vh;
+    }
+}
+
+@media screen and (min-width:1024px) and (max-width:1440px) {
+    .service_subpanel2 button{
+        width: 9vw;
+        min-height: 7vh;
+        max-height: 10vh;
+    }
+}
