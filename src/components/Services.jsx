@@ -95,25 +95,26 @@ export default function Services() {
           <button>Let's Talk</button>
         </div>
       </div>
+      <p id='servicemobile_desc'>Expert Services That Define Our Excellence, From creative design to technical solutions, our services define industry excellence.</p>
 
       <div className="divbtn">
-        <div className="dbtn" onClick={()=>{Sel(0)}}>
+        <div className="dbtn" onClick={()=>{Sel(0)}} onMouseOver={()=>{Sel(0)}}>
           <div className="blackcircle"><img src={btnimg.brush} alt="UI/UX" /></div>
           <h3>UI/UX Desigining</h3>
         </div>
-        <div className="dbtn" onClick={()=>{Sel(1)}}>
+        <div className="dbtn" onClick={()=>{Sel(1)}} onMouseOver={()=>{Sel(1)}}>
           <div className="blackcircle"><img src={btnimg.tablet} alt="Full Stack" /></div>
           <h3>Full Stack Development</h3>
         </div>
-        <div className="dbtn" onClick={()=>{Sel(2)}}>
+        <div className="dbtn" onClick={()=>{Sel(2)}} onMouseOver={()=>{Sel(2)}}>
           <div className="blackcircle"><img src={btnimg.rejection} alt="No/Low Code" /></div>
           <h3>No/Low-Code Development</h3>
         </div>
-        <div className="dbtn" onClick={()=>{Sel(3)}}>
+        <div className="dbtn" onClick={()=>{Sel(3)}} onMouseOver={()=>{Sel(3)}}>
           <div className="blackcircle"><img src={btnimg.magnifying_glass} alt="SEO" /></div>
           <h3>SEO Optimization</h3>
         </div>
-        <div className="dbtn" onClick={()=>{Sel(4)}}>
+        <div className="dbtn" onClick={()=>{Sel(4)}} onMouseOver={()=>{Sel(4)}}>
           <div className="blackcircle"><img src={btnimg.chaticon} alt="Chatbots" /></div>
           <h3>Chatbot Development</h3>
         </div>

@@ -34,6 +34,7 @@
 }
 
 .service_subpanel1 p{
+    display: block;
     color: var(--wiza-co-black, #000);
     font-size: 1.2rem;
     font-weight: 500;
@@ -50,6 +51,7 @@
 }
 
 .service_subpanel2 button{
+    cursor: pointer;
     width: 8vw;
     height: 7vh;
     border: none;
@@ -118,8 +120,96 @@
     height: 75vh;
 }
 
-@media screen and (max-width:768px) {
+#servicemobile_desc{
+    display: none;
+}
 
+@media screen and (max-width:768px) {
+    .service_panel{
+        height: 10vh;
+    }
+
+    .service_subpanel1 p{
+        display: none;
+    }
+
+    .service_subpanel1{
+        width: max-content;
+        justify-content: center;
+        align-items: start;
+        height: max-content;
+        padding-bottom: 0vh;
+    }
+
+    .service_subpanel1 h1{
+        font-size: 1.25rem;
+    }
+
+    .service_subpanel2{
+        width: max-content;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: unset;
+        margin-bottom: unset;
+    }
+
+    .service_subpanel2 button{
+        width: 23vw;
+        height: 5vh;
+        font-size: 0.8rem;
+        font-weight: 500;
+    }
+
+    #servicemobile_desc{
+        font-size: 1rem;
+        font-weight: 400;
+        display: block;
+        text-align: start;
+        width: 82vw;
+        position: relative;
+        bottom: 2vh;
+    }
+
+    .divbtn .blackcircle{
+        display: none;
+    }
+
+    .divbtn .dbtn{
+        width: 23vw;
+        height: 4vh;
+        background-color: #222;
+    }
+
+    .dbtn h3{
+        color: #FFF;
+        font-size: 0.5rem;
+        font-weight: 600;
+    }
+
+    .dbtn:first-child{
+        background-color: rgba(212, 23, 23, 0.75);
+    }
+
+    .divbtn{
+        width: 82vw;
+        display: grid;
+        grid-template-columns: max-content max-content max-content;
+        gap: 2vh;
+        justify-content: center;
+    }
+
+    .service_display{
+        border-radius: 10px;
+    }
+
+    .service_display img{
+        width: 82vw;
+        height: 26vh;
+        position: relative;
+        top: 3vh;
+        right: 6.5vw;
+    }
 }
 
 @media screen and (min-width:768px) and (max-width:1024px) {
@@ -135,5 +225,9 @@
         width: 9vw;
         min-height: 7vh;
         max-height: 10vh;
+    }
+
+    .dbtn .blackcircle{
+        width: 4.25vw;
     }
 }
