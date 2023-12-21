@@ -9,6 +9,8 @@
     padding-bottom: 40vh;
 }
 
+
+
 .service_panel{
     width: 75vw;
     height: max-content;
@@ -58,7 +60,7 @@
     font-weight: 600;
     border-radius: 10px;
     color: var(--White, #FFF);
-    background: var(--token-7daaf28e-d9d8-4811-b3fb-fc865480c423, rgb(9, 9, 9));
+    background: #222;
     font-size: 1rem;
 }
 
@@ -68,6 +70,11 @@
     height: max-content;
     justify-content: space-between;
     padding-bottom: 8vh;
+}
+
+.divbtn img{
+    width: 2vw;
+    height: 4vh;
 }
 
 .divbtn .dbtn{
@@ -101,7 +108,6 @@
 
 .dbtn:hover{
     box-shadow: 5px 5px 10px 0px  grey ;
-    transform: scale(1.02);
 }
 
 .service_display{
@@ -126,7 +132,13 @@
 
 @media screen and (max-width:768px) {
     .service_panel{
+        width: 84vw;
         height: 10vh;
+    }
+
+    .service_subpanel1 h1{
+        font-size: 1.5rem;
+        font-weight: 700;
     }
 
     .service_subpanel1 p{
@@ -139,10 +151,6 @@
         align-items: start;
         height: max-content;
         padding-bottom: 0vh;
-    }
-
-    .service_subpanel1 h1{
-        font-size: 1.25rem;
     }
 
     .service_subpanel2{
@@ -172,19 +180,31 @@
     }
 
     .divbtn .blackcircle{
-        display: none;
+        min-width: 5.5vw;
+        height: 3.25vh
+    }
+
+    .blackcircle img{
+        width: 3vw;
+        height: 2vh;
     }
 
     .divbtn .dbtn{
-        width: 23vw;
-        height: 4vh;
+        border-radius: 6.2px;
+        gap: 2vw;
+        display: flex;
+        flex-direction: row;
+        width: 21vw;
+        padding: 0vh 2vw;
+        height: 5.5vh;
         background-color: #222;
+        box-shadow: 3.31px 3.31px 3.31px 0px rgba(0, 0, 0, 0.20);
     }
 
     .dbtn h3{
         color: #FFF;
         font-size: 0.5rem;
-        font-weight: 600;
+        font-weight: 700;
     }
 
     .dbtn:first-child{
@@ -195,7 +215,7 @@
         width: 82vw;
         display: grid;
         grid-template-columns: max-content max-content max-content;
-        gap: 2vh;
+        gap: 3vh;
         justify-content: center;
     }
 
@@ -228,6 +248,7 @@
     }
 
     .dbtn .blackcircle{
-        width: 4.25vw;
+        width: 3.75vw;
+        height: 7vh 
     }
 }

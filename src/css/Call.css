@@ -4,7 +4,8 @@
     font-family: 'Inter' sans-serif;
     width: 100vw;
     background-color: #E6E6E6;
-    height: 42vh;
+    height: max-content;
+    padding-bottom: 5vh;
     align-items: center;
 }
 
@@ -48,6 +49,22 @@
     z-index: 0;
 }
 
+.grades{
+    display: flex;
+    width: max-content;
+    gap: 2vw;
+}
+
+.grades p{
+    color: var(--gray-600, #52525B);
+    font-size: 0.8rem;
+}
+
+.gradecontent{
+    text-align: center;
+    width: 15vw;
+}
+
 .call_inputs input::placeholder{
     position: relative;
     right: 1vw;
@@ -69,4 +86,41 @@
     position: absolute;
     z-index: 1;
     right: 28vw;
+}
+
+@media screen and (max-width:768px) {
+    .callhead{
+        width: 98vw;
+    }
+
+    .call_line{
+        width: 91vw;
+    }
+
+    .call_inputs form {
+        width: 78vw;
+    }
+
+    .call_inputs input{
+        font-size: 0.7rem;
+        width: 50vw;
+        padding-right: 25vw;
+        border-radius: 9px;
+    }
+
+    .call_inputs button{
+        padding: 0vh 2vw;
+        font-size: 0.7rem;
+        border-radius: 9px;
+        position: absolute;
+        right: 14vw;
+    }
+
+    .gradecontent{
+        width: 30vw;
+    }
+
+    .gradecontent p{
+        font-size: 0.6rem;
+    }
 }
