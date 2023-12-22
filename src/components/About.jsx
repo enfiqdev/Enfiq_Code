@@ -20,23 +20,29 @@ const About = () => {
   return (
     <>
 
-    <div className="about-sec">
-      <div className="aboutUs">
-        <h2 className="about-heading">We work together, as a seamless remote team</h2>
-        <p className="about-pragh">
-          At EnfiQ, we seamlessly blend creative design with technical expertise, setting new industry benchmarks through our commitment to excellence.
-        </p>
-        <div className="lists">
-          <ul>
+    <div className="about-container">
+      <div className="about-sec">
+        <div className="para-section">
+          <h1 className="about-heading">
+            We work together, as a seamless remote team
+          </h1>
+          <p className="paraTag2">
+            At Enfiq, we seamlessly blend creative design with technical
+            expertise, setting new industry benchmarks through our commitment
+            to excellence.
+          </p>
+          <ul className="lists">
             <li>Pioneering expert services that define industry excellence</li>
             <li>Fostering seamless collaboration within our global remote team</li>
           </ul>
+          <button className="join-btn">team@enfiq.com</button>
         </div>
-        <button className="join-btn">Join our team</button>
-        <div className="frame1">
-          <img className="poster-img" src={img1} alt="" />
+
+        <div className="image-sec">
+          <img className="about-img" src={img1} alt="" />
         </div>
       </div>
+
       <div className="tools">
         <div className="logos">
           <div className="logos-slide" ref={logosRef}>
@@ -50,38 +56,44 @@ const About = () => {
         </div>
       </div>
 
+
+
       <div className="tag-sec">
-      <h2 className="tag-line">You Think it, we Built it.</h2>
-      <button className="talk-btn">Let's Talk</button>
+          <h2 className="tag-line">You Think it, we Built it.</h2>
+          <button className="talk-btn">Let's Talk</button>
+        </div>
+
+        <div className="services">
+          <div className="services-sec">
+            <img className="services-img" src={img5} alt="design" />
+            <p className="services-img" id="Unleash">
+              Unleash creativity in every pixel, ensuring visually stunning and
+              user-centric designs.
+            </p>
+          </div>
+
+          <div className="services-sec">
+            <img className="services-img" src={img6} alt="design" />
+            <p className="services-img" id="Unleash">
+              Code mastery, from full-stack to low/no-code, building
+              high-performing websites
+            </p>
+          </div>
+
+          <div className="services-sec">
+            <img className="services-img" src={img7} alt="design" />
+            <p className="services-img" id="Unleash">
+              Launch with precision, turning ideas into impactful digital
+              solutions.
+            </p>
+          </div>
+        </div>
+
+
+
+
     </div>
-
-    <div className="services">
-      <div className="services-sec">
-        <img className="services-img" src={img5} alt="design" />
-        <p className="services-img" id="Unleash">
-          Unleash creativity in every pixel, ensuring visually stunning and
-          user-centric designs.
-        </p>
-      </div>
-
-      <div className="services-sec">
-        <img className="services-img" src={img6} alt="design" />
-        <p className="services-img" id="Unleash">
-          Code mastery, from full-stack to low/no-code, building high-performing
-          websites
-        </p>
-      </div>
-
-      <div className="services-sec">
-        <img className="services-img" src={img7} alt="design" />
-        <p className="services-img" id="Unleash">
-          Launch with precision, turning ideas into impactful digital solutions.
-        </p>
-      </div>
-    </div>
-
-
-    </div>
+      
       
     </>
   )
