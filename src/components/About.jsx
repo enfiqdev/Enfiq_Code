@@ -20,7 +20,7 @@ const About = () => {
   return (
     <>
 
-    <div className="about-container">
+    <div className="about-container" id='About'>
       <div className="about-sec">
         <div className="para-section">
           <h1 className="about-heading">

@@ -4,6 +4,7 @@ import logo from '../Images/Nav Resources/logo.svg';
 import twitter from '../Images/Footer Resources/twitter.png';
 import insta from '../Images/Footer Resources/insta.png';
 import linkedin from '../Images/Footer Resources/linkedin.png';
+import { Link } from 'react-scroll';
 
 const Footer = () => {
     return (
@@ -26,9 +27,9 @@ const Footer = () => {
                                     <div>
                                         <p className='footer-company'>Company</p>
                                         <div className='footer-nav'>
-                                            <ul className='footer-ul'><li className='footer-li'><a className='footer-link' href='#about'>About</a></li></ul>
-                                            <ul className='footer-ul'><li className='footer-li'><a className='footer-link' href='#services'>Services</a></li></ul>
-                                            <ul className='footer-ul'><li className='footer-li'><a className='footer-link' href='#portfolio'>Portfolio</a></li></ul>
+                                            <ul className='footer-ul'><li className='footer-li'><Link className='footer-link' to='About' smooth={true} offset={0} duration={800}>About</Link></li></ul>
+                                            <ul className='footer-ul'><li className='footer-li'><Link className='footer-link' to='Services' smooth={true} offset={0} duration={500}>Services</Link></li></ul>
+                                            <ul className='footer-ul'><li className='footer-li'><Link className='footer-link' to='Project' smooth={true} offset={0} duration={500}>Portfolio</Link></li></ul>
                                         </div>
                                     </div>
                                 </div>

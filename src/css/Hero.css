@@ -146,6 +146,7 @@
   position: absolute;
   top: 0;
   right: 0;
+  overflow-y: hidden;
 }
 .hero-img1 {
   position: absolute;
@@ -230,6 +231,7 @@
   background: #d41717;
 }
 .arrowRed {
+  left: 0;
   position: absolute;
 }
 @media screen and (max-width: 1320px) {
@@ -310,6 +312,7 @@
   .hero-lorem {
     font-size: 22px;
     width: 330px;
+    margin-bottom: 0;
   }
   .box{
     width: 155px;
@@ -325,11 +328,11 @@
     height: 250px;
   }
   .elements1{
-    top: 0;
-    transform: scale(0.7);
+    top: 10px;
+    transform: scale(0.7) !important; 
   }
   .elements2{
-    transform: scale(0.7);
+    transform: scale(0.7) !important;
   }
 }
 @media screen and (max-width: 630px) {
@@ -442,6 +445,12 @@
     left: 120px;
     width: 40%;
   }
+  .hero-lorem{
+    margin-bottom: 10px;
+  }
+  .elements2{
+    bottom: -8px;
+  }
 }
 @media screen and (max-width: 426px) {
   .hero-section{
@@ -450,6 +459,7 @@
   .hero-title {
     font-size: 32px;
     line-height: 50px;
+    letter-spacing: -1.8px;
   }
   .hero-content {
     font-size: 18px;
@@ -487,12 +497,12 @@
   .elements1{
     left: -10px;
     top: -10px;
-    transform: scale(0.5);
+    transform: scale(0.5) !important;
   }
   .elements2{
     right: 0px;
-    bottom: -10px;
-    transform: scale(0.5);
+    bottom: -12px;
+    transform: scale(0.5) !important;
   }
 }
 
@@ -561,6 +571,9 @@
   .hero-lorem{
     font-size: 14px;
     width: 180px;
+  }
+  .hero-title{
+    font-size: 28px;
   }
   .box{
     width: 100px;

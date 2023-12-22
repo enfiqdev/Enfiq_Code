@@ -8,7 +8,7 @@ const Project = () => {
   return (
     <>
 
-    <div className="portfolio-container">
+    <div className="portfolio-container" id='Project'>
     <h2 className="section">Portfolio</h2>
 
     {/* Project 1 */}
