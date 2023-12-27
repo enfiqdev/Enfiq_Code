@@ -345,7 +345,7 @@
   .lets-talk-black {
     width: 95px;
   }
-  .send-arrow{
+  .send-arrow {
     width: 20px !important;
     height: 20px !important;
   }
@@ -354,14 +354,22 @@
   .lets-talk-black {
     border-radius: 5.714px;
   }
-  .lets-talk-black{
+  .lets-talk-black {
     width: 90px;
     height: 20px;
     font-size: 14px;
   }
 }
 @media screen and (max-width: 600px) {
-    .lets-talk-black{
-        width: 80px;
-    }
+  .lets-talk-black {
+    width: 80px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .lets-talk-black {
+    font-size: 12px;
+  }
+  .send-arrow {
+    transform: scale(0.8);
+  }
 }

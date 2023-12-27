@@ -1,4 +1,3 @@
-
 .section{
     text-align: center;
 }
@@ -24,13 +23,13 @@
     align-items: center;
     justify-content: center;
     border-radius: 15px;
-    margin-top: 7%;
+    margin-top: 8%;
     background: #D2BBE9;
 
 }
 
 .project-img{
-    margin-top: 5%;
+    margin-top: 11%;
     width: 20vw;
     height: 55vh;
 }
@@ -63,7 +62,7 @@
 }
 
 .company-name{
-    line-height: 70px;
+    line-height: 20px;
 }
 
 .project-background3{
@@ -151,3 +150,33 @@
 
 }
 
+@media(max-width: 380px){
+    .project-background{
+        width: 75vw;
+        height: 50vh;
+    }
+
+    .project-background2{
+        width: 75vw;
+        height: 50vh;
+    }
+
+    .project-background3{
+        width: 75vw;
+        height: 50vh;
+    }
+
+   
+
+    .project-img{
+        width: 60vw;
+        height: 45vh;
+    }
+}
+
+
+@media(max-width: 290px){
+    .paragh1{
+        width: 241px;
+    }
+}

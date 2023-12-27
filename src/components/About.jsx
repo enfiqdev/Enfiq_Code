@@ -1,12 +1,15 @@
 import React,{useEffect, useRef} from 'react'
 import '../css/About.css';
-import img1 from '../Images/poster.jpg';
-import img2 from '../Images/vs.jpg';
-import img3 from '../Images/mongo.jpg';
-import img4 from '../Images/figma.jpg'
+import img1 from '../Images/poster.png';
+import img2 from '../Images/vscode.png';
+import img3 from '../Images/mongodb.png';
+import img4 from '../Images/figma.png'
 import img5 from '../Images/Frame1.png';
 import img6 from '../Images/Frame 1171276129 (1).png';
 import img7 from '../Images/Frame 1171276129 (2).png';
+import img8 from '../Images/framer.png';
+import img9 from '../Images/voice.png';
+import img10 from '../Images/webflow.png';
 
 
 const About = () => {
@@ -46,12 +49,14 @@ const About = () => {
       <div className="tools">
         <div className="logos">
           <div className="logos-slide" ref={logosRef}>
+          
             <img src={img2} alt="Visual Studio" />
             <img src={img3} alt="MongoDB" />
             <img src={img4} alt="Figma" />
-            <img src={img2} alt="Visual Studio" />
-            <img src={img3} alt="MongoDB" />
-            <img src={img4} alt="Figma" />
+            <img src={img8} alt="Framer" />
+            <img src={img9} alt="Voiceflow" />
+            <img src={img10} alt="Webflow" />
+          
           </div>
         </div>
       </div>
