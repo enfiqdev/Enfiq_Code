@@ -1,11 +1,9 @@
 .about-sec {
-  /* width: 100vw; */
   height: 85vh;
   background: #222222;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  /* justify-content: center; */
 }
 
 .about-heading {
@@ -160,6 +158,7 @@
   justify-content: center;
   align-items: center;
   margin-top: 50px;
+  margin-bottom: 5%;
 }
 
 #Unleash {
@@ -262,4 +261,24 @@
     .talk-btn{
       margin: -20px 0 0 32px;
     }
+}
+
+@media(max-width: 300px){
+  .about-heading{
+    font-size: 9px;
+  }
+
+  .paraTag2{
+    font-size: 8px;
+    line-height: 10px;
+  }
+
+  .lists{
+    font-size: 8px;
+    width: 39vw;
+  }
+
+  .join-btn{
+    width: 118px;
+  }
 }
