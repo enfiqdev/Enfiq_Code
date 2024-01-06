@@ -9,10 +9,8 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  /* background-color: yellow; */
 }
 .nav-center {
-  /* background-color: yellow; */
   width: 80%;
   height: 100%;
   display: flex;
@@ -65,6 +63,9 @@
   text-decoration: none;
   color: #000;
   cursor: pointer;
+}
+.nav-link:hover{
+  color: #d41717;
 }
 .lets-talk {
   border-radius: 10px;

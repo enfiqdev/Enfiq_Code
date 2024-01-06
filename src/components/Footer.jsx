@@ -16,7 +16,7 @@ const Footer = () => {
                             <div className='top-left'>
                                 <div className='top-left-1'>
                                     <div className='footer-logo'>
-                                        <img src={logo} className='logo' alt='Enfiq' />
+                                        <img src={logo} className='footer-logo-img' alt='Enfiq' />
                                         <a className='enfiq-name-footer' href='/'>enfiq</a>
                                     </div>
                                     <p className='footer-content'>

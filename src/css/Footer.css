@@ -57,7 +57,7 @@
 .top-left-1 {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: flex-start;
   width: 500px;
   height: 100%;
@@ -70,24 +70,27 @@
   align-items: flex-end;
   width: 250px;
 }
+.footer-logo-img{
+  width: 22px;
+}
 .footer-logo {
   height: fit-content;
-  width: 110px;
+  width: 190px;
   display: flex;
   align-items: center;
   font-family: "Inter", sans-serif;
-  justify-content: space-between;
+  justify-content: space;
 }
 .enfiq-name-footer {
   font-family: "Pavelt";
   color: #fff;
   text-align: center;
-  font-family: Pavelt;
-  font-size: 24px;
+  font-size: 36px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
   text-decoration: none;
+  width: 140px;
 }
 .footer-content {
   font-family: "Inter", sans-serif;
@@ -98,6 +101,8 @@
   font-weight: 400;
   text-align: left;
   line-height: 26px;
+  margin-bottom: 40px;
+  margin-top: 50px;
 }
 .footer-nav {
   display: flex;
@@ -121,6 +126,9 @@
   text-decoration: none;
   color: #fff;
   cursor: pointer;
+}
+.footer-link:hover{
+  color: #d41717;
 }
 .footer-company {
   color: rgba(161, 161, 161, 0.75);
@@ -184,8 +192,11 @@
   font-style: normal;
   font-weight: 600;
   line-height: normal;
+  cursor: pointer;
 }
-
+.email:hover{
+  color: #d41717;
+}
 .footer-container-bottom {
   width: 100%;
   height: 20%;
@@ -206,6 +217,7 @@
 }
 .span-enfiq {
   font-weight: 500;
+  font-family: "Pavelt";
 }
 @media screen and (max-width: 1024px) {
   .footer-container {
@@ -266,6 +278,13 @@
   .footer-center {
     background-size: contain;
   }
+  .enfiq-name-footer{
+    font-size: 30px;
+  }
+  .footer-content{
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
 }
 @media screen and (max-width: 768px) {
   .footer-container {
@@ -278,6 +297,10 @@
   .span-enfiq {
     font-size: 14px;
   }
+  .footer-content{
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
 }
 @media screen and (max-width: 650px) {
   .top-left {
@@ -287,7 +310,7 @@
   .top-left-1 {
     justify-content: center;
     height: fit-content;
-    margin-top: 60px;
+    margin-top: 70px;
   }
   .footer-content {
     margin: 0;
@@ -314,6 +337,10 @@
   .footer-copyright,
   .span-enfiq {
     font-size: 12px;
+  }
+  .footer-content{
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
 }
 @media screen and (max-width: 520px) {
@@ -343,6 +370,10 @@
   }
   .footer-content {
     margin-top: 40px;
+  }
+  .footer-content{
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
 }
 @media screen and (max-width: 426px) {
@@ -381,6 +412,13 @@
   .footer-content {
     margin-top: 35px;
     line-height: 20px;
+  }
+  .enfiq-name-footer{
+    font-size: 26px;
+  }
+  .footer-content{
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
 }
 @media screen and (max-width: 375px) {

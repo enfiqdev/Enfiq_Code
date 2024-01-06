@@ -5,6 +5,7 @@ import hero2 from '../Images/Hero Resources/hero2.png';
 import box from '../Images/Hero Resources/box.png';
 import arrowBlack from '../Images/Hero Resources/Arrow-Black.svg';
 import arrowRed from '../Images/Hero Resources/Arrow-Red.svg';
+import { Link } from 'react-scroll';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -12,16 +13,16 @@ const Hero = () => {
 
     AOS.init({
         startEvent: 'DOMContentLoaded',
-        initClassName: 'aos-init', 
-        animatedClassName: 'aos-animate', 
-        debounceDelay: 50, 
-        throttleDelay: 99, 
-        offset: 220, 
-        delay: 100, 
-        duration: 1000, 
-        easing: 'ease', 
-        once: false, 
-      });
+        initClassName: 'aos-init',
+        animatedClassName: 'aos-animate',
+        debounceDelay: 50,
+        throttleDelay: 99,
+        offset: 220,
+        delay: 100,
+        duration: 1000,
+        easing: 'ease',
+        once: false,
+    });
 
     return (
         <>
@@ -33,8 +34,8 @@ const Hero = () => {
                     </div>
                     <div className='hero-middle'>
                         <div>
-                        <a href='https://cal.com/enfiq/' target='_blank' className='schedule-call'>Schedule a Call</a>
-                        <a href='#portfolio' className='view-work'>View Work</a>
+                            <a href='https://cal.com/enfiq/' target='_blank' className='schedule-call'>Schedule a Call</a>
+                            <Link href='#portfolio' className='view-work' to='Project' smooth={true} offset={0} duration={500}>View Work</Link>
                         </div>
                     </div>
                     <div className='hero-bottom'>
