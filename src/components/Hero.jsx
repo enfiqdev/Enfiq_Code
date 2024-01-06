@@ -7,7 +7,6 @@ import arrowBlack from '../Images/Hero Resources/Arrow-Black.svg';
 import arrowRed from '../Images/Hero Resources/Arrow-Red.svg';
 import { Link } from 'react-scroll';
 import AOS from 'aos';
-import { Link } from 'react-scroll';
 import 'aos/dist/aos.css';
 
 const Hero = () => {
