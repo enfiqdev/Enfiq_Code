@@ -7,6 +7,7 @@ import arrowBlack from '../Images/Hero Resources/Arrow-Black.svg';
 import arrowRed from '../Images/Hero Resources/Arrow-Red.svg';
 import { Link } from 'react-scroll';
 import AOS from 'aos';
+import { Link } from 'react-scroll';
 import 'aos/dist/aos.css';
 
 const Hero = () => {
@@ -34,8 +35,8 @@ const Hero = () => {
                     </div>
                     <div className='hero-middle'>
                         <div>
-                            <a href='https://cal.com/enfiq/' target='_blank' className='schedule-call'>Schedule a Call</a>
-                            <Link href='#portfolio' className='view-work' to='Project' smooth={true} offset={0} duration={500}>View Work</Link>
+                        <a href='https://cal.com/enfiq/' target='_blank' className='schedule-call'>Schedule a Call</a>
+                        <Link href='#portfolio' className='view-work' to='Project' smooth={true} offset={0} duration={500}>View Work</Link>
                         </div>
                     </div>
                     <div className='hero-bottom'>
