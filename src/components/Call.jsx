@@ -29,7 +29,7 @@ export default function Call() {
             <div className='call_inputs'>
                 <form action="https://submit-form.com/d5w151K9c">
                     <input type="text" name="email" placeholder='Enter your Email' />
-                    <button type='submit'>Book a Call</button>
+                    <button type='submit'>Get in Touch</button>
                 </form>
             </div>
         </div>

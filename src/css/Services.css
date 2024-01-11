@@ -130,29 +130,32 @@
   justify-content: center;
   align-items: center;
   border-radius: 50%;
-  background-color: #222;
-  width: 3.7vw;
-  height: 7.2vh;
+
 }
 
 .service_display {
+  z-index: 1;
+  width: 75vw;
   margin-top: 5vh;
-  border-radius: 20px;
-  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
   background-color: var(
     --token-436523d3-8c5f-4840-b1ed-d65b0c4b1897,
     rgb(255, 236, 236)
   );
 }
 
-.service_display img {
-  border-radius: inherit;
-  box-shadow: 5px 5px 10px 1px grey;
+.boxing{
+  z-index: 0;
+  background-color: transparent;
   position: relative;
-  top: 7vh;
-  right: 7vh;
-  width: 75vw;
-  height: 75vh;
+  bottom: 7vh;
+  width: 53vw;
+  height: 5vh;
+  box-shadow: 0px 17px 122px 16px rgba(212, 23, 23, 0.75);
+}
+
+#adjust{
+  margin: 0.9vh;
 }
 
 #servicemobile_desc {
@@ -176,8 +179,7 @@
     font-weight: 700;
   }
 
-  .divbtn,
-  .section2 {
+  .divbtn, .section2 {
     width: 75vw;
   }
 
@@ -226,19 +228,13 @@
     height: 3.25vh;
   }
 
-  .blackcircle img {
-    width: 3vw;
-    height: 2vh;
-  }
-
   .divbtn .dbtn,
   .section2 .dbtn {
     border-radius: 6.2px;
-    gap: 2vw;
     display: flex;
     flex-direction: row;
     width: 22vw;
-    padding: 0vh 2vw;
+    padding: 0vh 3vw;
     height: 5.5vh;
     background-color: #222;
     box-shadow: 3.31px 3.31px 3.31px 0px rgba(0, 0, 0, 0.2);
@@ -260,6 +256,7 @@
   }
 
   .service_display {
+    width: 84vw;
     border-radius: 10px;
   }
 
@@ -278,6 +275,11 @@
     min-height: 4vh;
     max-height: 5vh;
   }
+  
+  .dbtn img{
+    width: 50px;
+    height: 50px 
+  }
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1440px) {
@@ -288,8 +290,16 @@
   }
 
   .dbtn .blackcircle {
-    width: 3.75vw;
-    height: 7vh;
+    width: 56px;
+    height: 56px;
+  }
+
+  .service_divalign{
+    margin-top: 6vh;
+  }
+
+  .dbtn h3{
+    font-size: 0.9rem;
   }
 }
 
@@ -299,10 +309,11 @@
   }
 
   .dbtn .blackcircle {
-    min-width: 5.25vw;
-    height: 2.25vh;
+    min-width: 30px;
+    height: 30px;
   }
 }
+
 .lets-talk-black {
   border-radius: 10px;
   background: #222;
@@ -341,13 +352,20 @@
   transform: rotate(-45deg);
   transition: all 1s;
 }
+
+
 @media screen and (max-width: 768px) {
   .lets-talk-black {
     width: 95px;
   }
+
   .send-arrow {
     width: 20px !important;
     height: 20px !important;
+  }
+
+  .divbtn h3{
+    font-size: 0.55rem;
   }
 }
 @media screen and (max-width: 600px) {
