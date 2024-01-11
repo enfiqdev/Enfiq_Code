@@ -1,0 +1,220 @@
+@font-face {
+  font-family: "Pavelt";
+  src: url("../../fonts/Pavelt.woff2") format("woff2");
+}
+.navbar {
+  width: 100%;
+  height: 84px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.nav-center {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.left-nav,
+.mid-nav,
+.right-nav {
+  height: 100%;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+}
+.left-nav {
+  width: 115px;
+  justify-content: space-between;
+}
+.mid-nav {
+  justify-content: space-evenly;
+  width: 300px;
+}
+.right-nav {
+  justify-content: right;
+}
+.enfiq-name {
+  font-family: "Pavelt";
+  color: #090909;
+  text-align: center;
+  font-family: Pavelt;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+  cursor: pointer;
+}
+.nav-ul {
+  list-style: none;
+  color: #000;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  padding: 0;
+}
+.nav-link {
+  text-decoration: none;
+  color: #000;
+  cursor: pointer;
+}
+.nav-link:hover{
+  color: #d41717;
+}
+.lets-talk {
+  border-radius: 10px;
+  background: #d41717;
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  width: 100px;
+  height: 25px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  font-weight: 600;
+  transition: all 0.6s;
+}
+.send-arrow{
+  width: 25px;
+  height: 25px;
+}
+.mobile-lets-talk {
+  border-radius: 8px;
+  background: #d41717;
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  width: 100px;
+  height: 20px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  color:#fff;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  line-height: 26.975px;
+}
+.lets-talk:hover {
+  background-color: #fff;
+  color: #000;
+  transform: scale(1.05);
+  --border-color: var(
+    --token-7daaf28e-d9d8-4811-b3fb-fc865480c423,
+    rgb(9, 9, 9)
+  );
+  box-shadow: rgba(9, 9, 9, 0.016) 0.30109px 0.60219px 0.67327px 0px,
+    rgba(9, 9, 9, 0.06) 1.14427px 2.28853px 2.55866px 0px,
+    rgba(9, 9, 9, 0.25) 5px 10px 11.1803px 0px;
+  border: 1px solid #090909;
+  transition: all 1s;
+}
+.lets-talk:hover .send-arrow{
+  filter: invert(1);
+  transform: rotate(-45deg);
+  transition: all 1s;
+}
+.mobile-nav,
+.menu {
+  display: none;
+}
+.menu-open{
+  transform: rotate(-90deg);
+  height: 25px;
+  display: flex;
+  width: 30px;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: 0.5s all;
+}
+@media screen and (max-width: 768px) {
+  .nav-center {
+    width: 90%;
+  }
+  .enfiq-name {
+    font-size: 22px;
+  }
+  .left-nav {
+    width: 100px;
+  }
+  .left-nav .logo {
+    width: 20px;
+    height: 30px;
+  }
+  .lets-talk {
+    width: 98px;
+  }
+  .right-nav {
+    width: 100px;
+  }
+}
+.mobile-nav-closed{
+  display: none;
+}
+@media screen and (max-width: 600px) {
+  .navbar{
+    height: 60px;
+  }
+  .mid-nav,
+  .lets-talk {
+    display: none;
+  }
+  .right-nav {
+    width: fit-content;
+  }
+  .mobile-nav {
+    position: absolute;
+    top: 50px;
+    right: 30px;
+    display: flex;
+    width: 120px;
+    height: fit-content;
+    padding: 11.429px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5.714px;
+    border: 0.5px solid rgba(204, 204, 204, 0.2);
+    background: #fff;
+    box-shadow: 5.714px 5.714px 7.143px 0px rgba(0, 0, 0, 0.1);
+  }
+  .mobile-mid-nav {
+    width: 90%;
+  }
+  .menu {
+    display: flex;
+    width: 30px;
+    height: 26px;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    transition: 0.5s all;
+  }
+  .bar {
+    padding: 0;
+    margin: 0;
+    width: 28px;
+    height: 4px;
+    border: 2px solid #d41717;
+  }
+  #bar2 {
+    border: 2px solid #090909;
+  }
+  .mobile-nav-ul {
+    height: 30px;
+    text-align: center !important;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+  }
+}
