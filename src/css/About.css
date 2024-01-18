@@ -38,7 +38,10 @@
   height: 46px;
   border-radius: 12px;
   margin-top: 20px;
+  font-weight: 600;
+  font-size: 0.9rem;
   border: none;
+  cursor: pointer;
   background: #ffffff;
 }
 
@@ -70,7 +73,7 @@
 .logos {
   overflow: hidden;
   padding: 30px 0;
-  background: #090909;
+  background: #222222;
   white-space: nowrap;
   position: relative;
 }
@@ -87,12 +90,12 @@
 
 .logos:before {
   left: 0;
-  background: linear-gradient(to left, rgba(255, 255, 255, 0), #090909);
+  background: linear-gradient(to left, rgba(255, 255, 255, 0), #222222);
 }
 
 .logos:after {
   right: 0;
-  background: linear-gradient(to right, rgba(255, 255, 255, 0), #090909);
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), #222222);
 }
 
 .logos:hover .logos-slide {
@@ -131,8 +134,8 @@
 
 .talk-btn {
   position: relative;
-  width: 128px;
-  height: 48px;
+  width: 110px;
+  /* height: 48px; */
   border-radius: 8px;
   color: white;
   font-family: Inter;
@@ -163,6 +166,7 @@
 
 #Unleash {
   text-align: center;
+  font-weight: 500;
 }
 
 
@@ -186,7 +190,7 @@
 @media(max-width: 1024px){
 
   .about-sec{
-    height: 65vh;
+    height: 85vh;
   }
 
     .about-heading{

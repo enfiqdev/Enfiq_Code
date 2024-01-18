@@ -10,6 +10,8 @@ import img7 from '../Images/Frame 1171276129 (2).png';
 import img8 from '../Images/framer.png';
 import img9 from '../Images/voice.png';
 import img10 from '../Images/webflow.png';
+import arrow from "../Images/Nav Resources/send.svg";
+
 
 
 const About = () => {
@@ -38,7 +40,7 @@ const About = () => {
             <li>Pioneering expert services that define industry excellence</li>
             <li>Fostering seamless collaboration within our global remote team</li>
           </ul>
-          <button className="join-btn">team@enfiq.com</button>
+          <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=CllgCJvlHCvNMNkslMvjxKmMXQNqxCfGhccxmtqpdXWVchsmfxgNHqNZNfSNTGcBXbtpgbmwXFg" target='_blank'><button className="join-btn">team@enfiq.com</button></a>
         </div>
 
         <div className="image-sec">
@@ -65,8 +67,11 @@ const About = () => {
 
       <div className="tag-sec">
           <h2 className="tag-line">You Think it, we Built it.</h2>
-          <button className="talk-btn">Let's Talk</button>
+          <a href='https://cal.com/enfiq/' className='lets-talk-black talk-btn'>Let's Talk <img src={arrow} className='send-arrow' /></a>
+
         </div>
+
+
 
         <div className="services">
           <div className="services-sec">

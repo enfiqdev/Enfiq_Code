@@ -1,6 +1,6 @@
 .section{
     text-align: center;
-    font-size: 3rem;
+    font-size: 2.1rem;
 }
 
 .portfolio-container{
@@ -43,6 +43,8 @@
 .paragh1{
     width: 400px;
     line-height: 36px;
+    font-weight: 600;
+    font-size: 1.2rem;
 }
 
 .project-background2{
@@ -112,7 +114,7 @@
     }
 
     .project-img{
-        width: 45vw;
+        width: 40vw;
     }
     .portfolio-sec{
         flex-direction: column;
@@ -130,6 +132,7 @@
 
     .project-para{
         margin-left: 30px;
+        margin-top: -1%;
     }
 
     .portfolio-container{
