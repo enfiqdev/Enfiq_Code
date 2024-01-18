@@ -95,7 +95,7 @@
 
 @media screen and (max-width:768px) {
     .callhead{
-        width: 98vw;
+        width: 80vw;
     }
 
     .callhead p{
@@ -110,7 +110,7 @@
     }
 
     .call_line{
-        width: 91vw;
+        width: 80vw;
     }
 
     .call_inputs form {
