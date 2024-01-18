@@ -224,7 +224,7 @@
 
   .divbtn .blackcircle,
   .section2 .blackcircle {
-    min-width: 5.5vw;
+    min-width: 7vw;
     height: 3.25vh;
   }
 
@@ -329,10 +329,12 @@
   font-weight: 600;
   transition: all 0.6s;
 }
+
 .send-arrow {
   width: 30px;
   height: 30px;
 }
+
 .lets-talk-black:hover {
   background-color: #fff;
   color: #000;
@@ -347,6 +349,7 @@
   border: 1px solid #090909;
   transition: all 1s;
 }
+
 .lets-talk-black:hover .send-arrow {
   filter: invert(1);
   transform: rotate(-45deg);
