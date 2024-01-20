@@ -1,8 +1,12 @@
 import React from 'react';
 import '../css/Project.css';
-import image1 from '../Images/image 31.png';
-import image2 from '../Images/image 32.png';
-import image3 from '../Images/image 33.png';
+// import image1 from '../Images/image 31.png';
+// import image2 from '../Images/image 32.png';
+// import image3 from '../Images/image 33.png';
+
+import Doodunes from '../Images/doordunes.png';
+import Adhyay from '../Images/adhyay.png';
+import Civil from '../Images/civillabs.png';
 
 const Project = () => {
   return (
@@ -15,7 +19,7 @@ const Project = () => {
     <div className="portfolio-sec">
       <div className="project-background">
         <a href="https://doordunes.com/" target="_blank" rel="noopener noreferrer">
-          <img className="project-img" src={image1} alt="doorDunes" />
+          <img className="project-img" src={Doodunes} alt="doorDunes" />
         </a>
       </div>
 
@@ -48,7 +52,7 @@ const Project = () => {
 
       <div className="project-background2">
         <a href="https://www.adhyay.live/" target="_blank" rel="noopener noreferrer">
-          <img className="project-img" src={image2} alt="Adhyay" />
+          <img className="project-img" src={Adhyay} alt="Adhyay" />
         </a>
       </div>
     </div>
@@ -57,7 +61,7 @@ const Project = () => {
     <div className="portfolio-sec">
       <div className="project-background3">
         <a href="https://www.civillabs.co.in/" target="_blank" rel="noopener noreferrer">
-          <img className="project-img" src={image3} alt="civillabs" />
+          <img className="project-img" src={Civil} alt="civillabs" />
         </a>
       </div>
 

@@ -23,21 +23,21 @@
 }
 
 .project-background{
-    width: 40vw;
-    height: 60vh;
+    /* width: 40vw;
+    height: 60vh; */
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 15px;
     margin-top: 8%;
-    background: #D2BBE9;
+    /* background: #D2BBE9; */
 
 }
 
 .project-img{
     margin-top: 11%;
-    width: 20vw;
-    height: 55vh;
+    /* width: 40vw;
+    height: 55vh; */
 }
 
 .paragh1{
@@ -48,14 +48,14 @@
 }
 
 .project-background2{
-    width: 40vw;
-    height: 60vh;
+    /* width: 40vw;
+    height: 60vh; */
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 15px;
     margin-top: 7%;
-    background: #FFE0E0;
+    /* background: #FFE0E0; */
 
 }
 
@@ -74,14 +74,14 @@
 }
 
 .project-background3{
-    width: 40vw;
-    height: 60vh;
+    /* width: 40vw;
+    height: 60vh; */
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 15px;
     margin-top: 7%;
-    background: #FFE9AE;
+    /* background: #FFE9AE; */
 
 }
 
@@ -90,31 +90,32 @@
 }
 @media(max-width: 1024px){
     .project-img{
-        width: 32vw;
-        height: 35vh;
+        width: 35vw;
+        height: 25vh;
     }
 
-    .project-background{
+    /* .project-background{
         height: 37vh;
-    }
+    } */
 
-    .project-background2{
+    /* .project-background2{
         height: 37vh;
     }
 
     .project-background3{
         height: 37vh;
-    }
+    } */
 }
 
 
 @media(max-width: 550px){
-    .project-background, .project-background2, .project-background3{
+    /* .project-background, .project-background2, .project-background3{
         width: 74vw;
-    }
+    } */
 
     .project-img{
-        width: 40vw;
+        width: 72vw;
+        height: 30vh;
     }
     .portfolio-sec{
         flex-direction: column;
@@ -150,7 +151,7 @@
 
 
 @media(max-height: 700px){
-    .project-background{
+    /* .project-background{
         width: 40vw;
         height: 60vh;
     }
@@ -163,17 +164,17 @@
     .project-background3{
         width: 40vw;
         height: 60vh;
-    }
+    } */
 
-    .project-img{
+    /* .project-img{
         width: 21vw;
         height: 56vh;
-    }
+    } */
 
 }
 
 @media(max-width: 380px){
-    .project-background{
+    /* .project-background{
         width: 75vw;
         height: 50vh;
     }
@@ -186,13 +187,13 @@
     .project-background3{
         width: 75vw;
         height: 50vh;
-    }
+    } */
 
    
 
     .project-img{
-        width: 60vw;
-        height: 45vh;
+        width: 75vw;
+        height: 35vh;
     }
 }
 
