@@ -1,6 +1,6 @@
 .services_component {
   margin-top: 15vh;
-  width: 100vw;
+  width: 100%;
   overflow-x: hidden;
   height: max-content;
   display: flex;
