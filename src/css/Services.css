@@ -130,7 +130,8 @@
   justify-content: center;
   align-items: center;
   border-radius: 50%;
-
+  width: 3.5vw;
+  height: 7.25vh;
 }
 
 .service_display {
@@ -154,10 +155,6 @@
   box-shadow: 0px 17px 122px 16px rgba(212, 23, 23, 0.75);
 }
 
-#adjust{
-  margin: 0.9vh;
-}
-
 #servicemobile_desc {
   display: none;
 }
@@ -166,6 +163,10 @@
   .service_panel {
     width: 84vw;
     height: 10vh;
+  }
+
+  #adjust{
+    margin: 0.9vh;
   }
 
   .service_divalign {
@@ -222,10 +223,18 @@
     bottom: 2vh;
   }
 
+  .divbtn .dbtn:nth-child(1){
+    gap: 1vw;
+  }
+
+  .section2 .dbtn:nth-child(1){
+    gap: 1.5vw;
+  }
+
   .divbtn .blackcircle,
   .section2 .blackcircle {
-    min-width: 6.5vw;
-    height: 3.25vh;
+    width: 6.5vw;
+    height: 6.5vw;
   }
 
   .divbtn .dbtn,
@@ -242,7 +251,7 @@
 
   .dbtn h3 {
     color: #fff;
-    font-size: 0.5rem;
+    font-size: 0.55rem;
     font-weight: 700;
   }
 
@@ -269,20 +278,42 @@
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (min-width: 769px) and (max-width: 1024px) {
   .service_subpanel2 button {
     width: 13vw;
     min-height: 4vh;
     max-height: 5vh;
   }
-  
-  .dbtn img{
-    width: 50px;
-    height: 50px 
+
+  .dbtn .blackcircle,
+  .section2 .blackcircle {
+    width: 5vw;
+    height: 5vw;
+  }
+
+  .dbtn h3 , .section2 h3{
+    font-size: 0.95rem;
   }
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1440px) {
+@media screen and (min-width:769px) and (max-width:1024px) and (max-height:601px) {
+  .service_panel{
+    padding-bottom: 10vh;
+  }
+}
+
+@media screen and (max-width:768px) and (min-height : 1000px){
+  .dbtn .blackcircle, .section2 .blackcircle{
+    width: 4.5vw;
+    height: 4.5vw;
+  }
+
+  .dbtn h3, .dbtn h3{
+    font-size: 0.75rem;
+  }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
   .service_subpanel2 button {
     width: 9vw;
     min-height: 7vh;
@@ -300,17 +331,6 @@
 
   .dbtn h3{
     font-size: 0.9rem;
-  }
-}
-
-@media screen and (max-width: 768px) and (min-height: 840px) {
-  .divbtn .dbtn {
-    height: 4.5vh;
-  }
-
-  .dbtn .blackcircle {
-    min-width: 7vw;
-    height: 30px;
   }
 }
 
@@ -365,10 +385,6 @@
   .send-arrow {
     width: 20px !important;
     height: 20px !important;
-  }
-
-  .divbtn h3{
-    font-size: 0.55rem;
   }
 }
 @media screen and (max-width: 600px) {

@@ -65,7 +65,6 @@ export default function Services() {
         </div>
         <div className="service_subpanel2">
         <a href='https://cal.com/enfiq/' className='lets-talk-black'>Let's Talk <img src={arrow} className='send-arrow' /></a>
-        {/* <a href="https://cal.com/enfiq/" style={{"text-decoration": "none"}}><button>Let's Talk <img src={arrow} alt="talk"  /></button></a> */}
         </div>
       </div>
       <p id='servicemobile_desc'>Expert Services That Define Our Excellence, From creative design to technical solutions, our services define industry excellence.</p>
