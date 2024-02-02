@@ -37,9 +37,9 @@ const Footer = () => {
                             <div className='top-right'>
                                 <div className='top-right-1'>
                                     <div className='social-div'>
-                                        <a className='social-link'><img src={twitter} className='social-icon' /></a>
-                                        <a className='social-link'><img src={insta} className='social-icon' /></a>
-                                        <a className='social-link'><img src={linkedin} className='social-icon' /></a>
+                                        <a className='social-link' href="https://twitter.com/EnfiqOfficial?t=IWze5GVAN4_gpPxT7Tw08Q"><img src={twitter} className='social-icon' /></a>
+                                        <a className='social-link' href="https://www.instagram.com/enfiqofficial/?utm_source=qr&r=nametag"><img src={insta} className='social-icon' /></a>
+                                        <a className='social-link' href="https://www.linkedin.com/company/enfiq/"><img src={linkedin} className='social-icon' /></a>
                                     </div>
                                 </div>
                                 <div className='top-right-2'>
